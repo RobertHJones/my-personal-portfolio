@@ -35,7 +35,7 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <p className={styles.description}>
-          Hi I'm Rob. I'm a Full Stack Software Engineer based in Birmingham.
+          Hi I am Rob. I am a Full Stack Software Engineer based in Birmingham.
           <br></br>
           This portfolio showcases my projects and skills, as well as also
           providing details regarding my background and some other information
