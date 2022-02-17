@@ -25,6 +25,7 @@ export default function Skills() {
             <Link href="/contact">Contact</Link>
           </div>
         </div>
+        <h1 className={styles.title}>Skills</h1>
       </header>
       List of tech stack, Codewars etc
       <footer className={styles.footer}>

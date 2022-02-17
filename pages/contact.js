@@ -2,6 +2,14 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import { ReactElement } from "react";
+
+import {
+  faLinkedIn,
+  faEnvelope,
+  faGitHub,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
   return (
@@ -35,13 +43,7 @@ export default function Contact() {
         </p>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            Email address:{" "}
-            <Image
-              src="https://img.icons8.com/ios-filled/24/000000/mail.png"
-              alt=""
-              width={24}
-              height={24}
-            />
+            Email address: <FontAwesomeIcon icon={faEnvelope} />
             <a
               className={styles.link}
               href="mailto: roberthuwjones@outlook.com"
@@ -58,6 +60,7 @@ export default function Contact() {
               width={24}
               height={24}
             />
+            <FontAwesomeIcon icon={faLinkedIn} />
             <a
               className={styles.link}
               href="https://www.linkedin.com/in/robert-jones-711bb489/"
@@ -76,6 +79,7 @@ export default function Contact() {
               width={24}
               height={24}
             />
+            <FontAwesomeIcon icon={faGitHub} />
             <a
               className={styles.link}
               href="https://github.com/RobertHJones"
@@ -99,7 +103,9 @@ export default function Contact() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-        <a href="https://icons8.com/icon/20675/github">GitHub icon by Icons8</a>
+        <a href="https://icons8.com/icon/20675/github">
+          GitHub, LinkedIn and Mail icons by Icons8
+        </a>
       </footer>
     </div>
   );

@@ -26,6 +26,7 @@ export default function Other() {
             <Link href="/contact">Contact</Link>
           </div>
         </div>
+        <h1 className={styles.title}>Other Information</h1>
       </header>
       <main>
         <h2>Music</h2>

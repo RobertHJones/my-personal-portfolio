@@ -25,6 +25,7 @@ export default function Projects() {
             <Link href="/contact">Contact</Link>
           </div>
         </div>
+        <h1 className={styles.title}>Projects</h1>
       </header>
       Game price checker. Cocktail finder. Christmas Project. Python
       rockpaperscissors. Python text adventure? Yoga database. Handstand site.
