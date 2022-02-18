@@ -2,6 +2,42 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+import "antd/dist/antd.css";
+import { Menu, Dropdown, Button, message, Space, Tooltip } from "antd";
+import { DownOutlined, UserOutlined } from "@ant-design/icons";
+
+function handleButtonClick(e) {
+  message.info("Click on left button.");
+  console.log("click left button", e);
+}
+
+function handleMenuClick(e) {
+  message.info("Click on menu item.");
+  console.log("click", e);
+}
+
+const menu = (
+  <Menu onClick={handleMenuClick}>
+    <Menu.Item key="1" icon={<UserOutlined />}>
+      <Link href="/about">About</Link>
+    </Menu.Item>
+    <Menu.Item key="2" icon={<UserOutlined />}>
+      <Link href="/skills">Skills</Link>
+    </Menu.Item>
+    <Menu.Item key="3" icon={<UserOutlined />}>
+      <Link href="/projects">Projects</Link>
+    </Menu.Item>
+    <Menu.Item key="4" icon={<UserOutlined />}>
+      <Link href="/cv">CV</Link>
+    </Menu.Item>
+    <Menu.Item key="5" icon={<UserOutlined />}>
+      <Link href="/other">Other Information</Link>
+    </Menu.Item>
+    <Menu.Item key="6" icon={<UserOutlined />}>
+      <Link href="/contact">Contact</Link>
+    </Menu.Item>
+  </Menu>
+);
 
 export default function Home() {
   return (
@@ -16,19 +52,44 @@ export default function Home() {
         <div className={styles.topnav}>
           {" "}
           <div className={styles.menuicon}>
-            <Link href="/">Home</Link>
+            <Dropdown.Button onClick={handleButtonClick} overlay={menu}>
+              <Link href="/">Home</Link>
+            </Dropdown.Button>
+
+            <div className={styles.mobileLinks}>
+              <Link href="/about">About</Link>
+              <Link href="/skills">Skills</Link>
+              <Link href="/projects">Projects</Link>
+              <Link href="/cv">CV</Link>
+              <Link href="/other">Other Information</Link>
+              <Link href="/contact">Contact</Link>
+            </div>
           </div>
           {/* replace icon with an
           icon, add onclick to icon, when clicked, display div with the links in
           mobile friendly format, div created but hidden on default and display is toggled from hidden to block on click. State */}
           <div className={styles.desktop}>
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/skills">Skills</Link>
-            <Link href="/projects">Projects</Link>
-            <Link href="/cv">CV</Link>
-            <Link href="/other">Other Information</Link>
-            <Link href="/contact">Contact</Link>
+            <Link className={styles.navLinks} href="/">
+              Home
+            </Link>
+            <Link className={styles.navLinks} href="/about">
+              About
+            </Link>
+            <Link className={styles.navLinks} href="/skills">
+              Skills
+            </Link>
+            <Link className={styles.navLinks} href="/projects">
+              Projects
+            </Link>
+            <Link className={styles.navLinks} href="/cv">
+              CV
+            </Link>
+            <Link className={styles.navLinks} href="/other">
+              Other Information
+            </Link>
+            <Link className={styles.navLinks} href="/contact">
+              Contact
+            </Link>
           </div>
         </div>
         <h1 className={styles.title}>Robert Jones Personal Portfolio</h1>

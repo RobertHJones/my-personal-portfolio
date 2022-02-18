@@ -3,13 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { ReactElement } from "react";
-
+import "antd/dist/antd.css";
+import { Space } from "antd";
 import {
-  faLinkedIn,
-  faEnvelope,
-  faGitHub,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  LinkedinOutlined,
+  GithubOutlined,
+  MailOutlined,
+} from "@ant-design/icons";
 
 export default function Contact() {
   return (
@@ -43,7 +43,7 @@ export default function Contact() {
         </p>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            Email address: <FontAwesomeIcon icon={faEnvelope} />
+            Email address: <MailOutlined />
             <a
               className={styles.link}
               href="mailto: roberthuwjones@outlook.com"
@@ -53,14 +53,7 @@ export default function Contact() {
             </a>
           </li>
           <li>
-            LinkedIn:{" "}
-            <Image
-              src="https://img.icons8.com/material/24/4a90e2/linkedin--v1.png"
-              alt=""
-              width={24}
-              height={24}
-            />
-            <FontAwesomeIcon icon={faLinkedIn} />
+            LinkedIn: <LinkedinOutlined />
             <a
               className={styles.link}
               href="https://www.linkedin.com/in/robert-jones-711bb489/"
@@ -72,14 +65,7 @@ export default function Contact() {
             </a>
           </li>
           <li>
-            Github:{" "}
-            <Image
-              src="https://img.icons8.com/material/24/000000/github.png"
-              alt=""
-              width={24}
-              height={24}
-            />
-            <FontAwesomeIcon icon={faGitHub} />
+            Github: <GithubOutlined />
             <a
               className={styles.link}
               href="https://github.com/RobertHJones"
@@ -102,9 +88,6 @@ export default function Contact() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
-        <a href="https://icons8.com/icon/20675/github">
-          GitHub, LinkedIn and Mail icons by Icons8
         </a>
       </footer>
     </div>
