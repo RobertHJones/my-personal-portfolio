@@ -1,6 +1,7 @@
 .container {
   padding: 0 2rem;
   background-image: url("https://www.teahub.io/photos/full/125-1253801_website-background.png");
+  max-width: 100%;
 }
 
 .main {
@@ -121,54 +122,18 @@
   color: white;
 }
 
-/* Add a background color to the top navigation */
-.topnav {
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  height: 3rem;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  /* float: left; */
-  color: #f2f2f2;
-  text-align: center;
-  padding: 0.6vh 3vw;
-  /* padding: 0.5% 5.6%; */
-  text-decoration: none;
-  font-size: 1rem;
-  border: 2px solid white;
-  width: 14%;
-  background-color: #4a8d80;
-  margin: 0 0.5rem;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #abc4c0;
-  color: black;
-  /* font-family: Arial; */
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04aa6d;
-  color: white;
-}
 
 @media (min-width: 600px) {
   .menuicon {
     display: none;
   }
 }
-@media (max-width: 600px) {
-  .desktop {
-    display: none;
+/* @media (max-width: 1200px) {
+  .container {
+    background-image: url("https://www.teahub.io/photos/full/125-1253801_website-background.png");
+
   }
-}
+} */
 
 .desktop {
   max-width: 80vw;
