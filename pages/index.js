@@ -5,6 +5,7 @@ import Link from "next/link";
 import "antd/dist/antd.css";
 import { Menu, Dropdown, Button, message, Space, Tooltip } from "antd";
 import { DownOutlined, UserOutlined } from "@ant-design/icons";
+import DesktopNav from "./Components/DesktopNav";
 
 function handleButtonClick(e) {
   message.info("Click on left button.");
@@ -49,26 +50,24 @@ export default function Home() {
       </Head>
 
       <header>
-        <div className={styles.topnav}>
-          {" "}
-          <div className={styles.menuicon}>
-            <Dropdown.Button onClick={handleButtonClick} overlay={menu}>
+        {/* <div className={styles.topnav}> */}{" "}
+        {/* <div className={styles.menuicon}> */}
+        {/* <Dropdown.Button onClick={handleButtonClick} overlay={menu}>
               <Link href="/">Home</Link>
-            </Dropdown.Button>
-
-            <div className={styles.mobileLinks}>
+            </Dropdown.Button> */}
+        {/* <div className={styles.mobileLinks}>
               <Link href="/about">About</Link>
               <Link href="/skills">Skills</Link>
               <Link href="/projects">Projects</Link>
               <Link href="/cv">CV</Link>
               <Link href="/other">Other Information</Link>
               <Link href="/contact">Contact</Link>
-            </div>
-          </div>
-          {/* replace icon with an
+            </div> */}
+        {/* </div> */}
+        {/* replace icon with an
           icon, add onclick to icon, when clicked, display div with the links in
           mobile friendly format, div created but hidden on default and display is toggled from hidden to block on click. State */}
-          <div className={styles.desktop}>
+        {/* <div className={styles.desktop}>
             <Link className={styles.navLinks} href="/">
               Home
             </Link>
@@ -90,8 +89,9 @@ export default function Home() {
             <Link className={styles.navLinks} href="/contact">
               Contact
             </Link>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
+        <DesktopNav />
         <h1 className={styles.title}>Robert Jones Personal Portfolio</h1>
       </header>
       <main className={styles.main}>

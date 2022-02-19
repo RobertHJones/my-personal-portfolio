@@ -105,6 +105,18 @@
   }
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.desktopLink {
+  margin: 1rem;
+  border: 2px solid white;
+
+  background-color: #4a8d80;
+}
+
 /* Add a background color to the top navigation */
 .topnav {
   overflow: hidden;
