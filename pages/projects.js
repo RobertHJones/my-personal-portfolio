@@ -2,29 +2,35 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import "antd/dist/antd.css";
+import DesktopNav from "./Components/DesktopNav";
+import MobileNav from "./Components/MobileNav";
+import { useState, useEffect } from "react";
 
 export default function Projects() {
+  const [isDesktop, setDesktop] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth > 736) {
+      setDesktop(true);
+    } else {
+      setDesktop(false);
+    }
+
+    const updateMedia = () => {
+      if (window.innerWidth > 736) {
+        setDesktop(true);
+      } else {
+        setDesktop(false);
+      }
+    };
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, []);
   return (
     <div className={styles.container}>
       <header>
-        <div className={styles.topnav}>
-          {" "}
-          <div className={styles.menuicon}>
-            <Link href="/">Home</Link>
-          </div>
-          {/* replace icon with an
-          icon, add onclick to icon, when clicked, display div with the links in
-          mobile friendly format, div created but hidden on default and display is toggled from hidden to block on click. State */}
-          <div className={styles.desktop}>
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/skills">Skills</Link>
-            <Link href="/projects">Projects</Link>
-            <Link href="/cv">CV</Link>
-            <Link href="/other">Other Information</Link>
-            <Link href="/contact">Contact</Link>
-          </div>
-        </div>
+        <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>Projects</h1>
       </header>
       Game price checker. Cocktail finder. Christmas Project. Python
