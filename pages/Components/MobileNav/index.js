@@ -3,8 +3,8 @@ import styles from "../../../styles/Home.module.css";
 import Link from "next/link";
 import "antd/dist/antd.css";
 
-import { Menu, Dropdown, Button, message, Space, Tooltip } from "antd";
-import { DownOutlined, UserOutlined } from "@ant-design/icons";
+import { Menu, Dropdown, Space } from "antd";
+import { UserOutlined } from "@ant-design/icons";
 
 const menu = (
   <Menu>
