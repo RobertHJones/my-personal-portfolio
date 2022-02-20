@@ -8,19 +8,19 @@ import { DownOutlined, UserOutlined } from "@ant-design/icons";
 
 const menu = (
   <Menu>
-    <Menu.Item key="1" icon={<UserOutlined />}>
+    <Menu.Item className={styles.mobileLink} key="1" icon={<UserOutlined />}>
       <Link href="/about">About</Link>
     </Menu.Item>
-    <Menu.Item key="2" icon={<UserOutlined />}>
+    {/* <Menu.Item key="2" icon={<UserOutlined />}>
       <Link href="/skills">Skills</Link>
-    </Menu.Item>
-    <Menu.Item key="3" icon={<UserOutlined />}>
+    </Menu.Item> */}
+    <Menu.Item key="2" className={styles.mobileLink} icon={<UserOutlined />}>
       <Link href="/cv">CV</Link>
     </Menu.Item>
-    <Menu.Item key="4" icon={<UserOutlined />}>
+    <Menu.Item key="3" className={styles.mobileLink} icon={<UserOutlined />}>
       <Link href="/other">Other Information</Link>
     </Menu.Item>
-    <Menu.Item key="5" icon={<UserOutlined />}>
+    <Menu.Item key="4" className={styles.mobileLink} icon={<UserOutlined />}>
       <Link href="/contact">Contact</Link>
     </Menu.Item>
   </Menu>
@@ -29,8 +29,8 @@ const menu = (
 export default function MobileNav() {
   return (
     <Space wrap>
-      <Dropdown.Button overlay={menu}>
-        <Link href="/">Home</Link>
+      <Dropdown.Button className={styles.mobileLink} overlay={menu}>
+        <Link  href="/">Home</Link>
       </Dropdown.Button>
     </Space>
   );

@@ -39,8 +39,10 @@ export default function Home() {
       <header>
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>Robert Jones Personal Portfolio</h1>
+        <p>Tech Stack | etc | centre this</p>
       </header>
-      <main className={styles.main}>
+      <main>
+        <div className={styles.homeFraming}>
         <p className={styles.description}>
           Hi I am Rob. I am a Full Stack Software Engineer based in Birmingham.
           <br></br>
@@ -48,7 +50,8 @@ export default function Home() {
           providing details regarding my background and some other information
           about me. This is currently a work in progress.
         </p>
-
+        <img className={styles.image} src="https://scontent.fltn3-1.fna.fbcdn.net/v/t31.18172-8/11057595_10152896118106301_3657998345476906860_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=19026a&_nc_ohc=1NrTGUA0ZKMAX_1TT3F&_nc_ht=scontent.fltn3-1.fna&oh=00_AT8xhRvSLjg6O_Mox1Pcvam3FvSPa-Z4yhLnFQEmTTN0Rg&oe=6236B0D8" />
+        </div>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>

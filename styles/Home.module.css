@@ -33,7 +33,7 @@
 .title {
   margin-top: 5vh;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .title,
@@ -44,7 +44,38 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.subheader {
+  font-size: 2rem;
+}
+
+.blurb {
+font-size: 1rem;
+}
+
+@media (min-width: 736px) {
+  .description {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 736px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 736px) {
+  .subheader {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 736px) {
+  .blurb {
+    font-size: 1.8rem;
+  }
 }
 
 .code {
@@ -122,6 +153,19 @@
   color: white;
 }
 
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 180px;
+  border: 5px solid white;
+}
+
+/* .homeFraming {
+  display: flex;
+  justify-content: space-evenly;
+} */
 
 @media (min-width: 600px) {
   .menuicon {

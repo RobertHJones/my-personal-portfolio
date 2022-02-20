@@ -41,7 +41,8 @@ export default function Contact() {
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>Contact me</h1>
       </header>
-      <main>
+      <main >
+        <div className={styles.description}>
         <p>
           If you would like to contact me about any opportunities, please feel
           free to do so at any of the below.
@@ -82,6 +83,7 @@ export default function Contact() {
             </a>{" "}
           </li>
         </ul>
+        </div>
       </main>
       <footer className={styles.footer}>
         <a

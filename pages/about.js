@@ -34,6 +34,7 @@ export default function About() {
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>About me</h1>
       </header>
+      List of tech stack, Codewars etc. Personal development TS etc. Start with bootcamp experience then do education/work background
       <div className={styles.grid}>
         <a href="https://nextjs.org/docs" className={styles.card}>
           <h2>Documentation &rarr;</h2>
