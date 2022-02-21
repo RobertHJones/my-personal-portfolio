@@ -30,7 +30,7 @@ export default function MobileNav() {
   return (
     <Space wrap>
       <Dropdown.Button className={styles.mobileLink} overlay={menu}>
-        <Link  href="/">Home</Link>
+        <Link href="/">Home</Link>
       </Dropdown.Button>
     </Space>
   );
