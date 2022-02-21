@@ -52,7 +52,7 @@
 }
 
 .blurb {
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 736px) {
@@ -158,7 +158,7 @@ font-size: 1rem;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-radius: 180px;
+  border-radius: 150px;
   border: 5px solid white;
 }
 

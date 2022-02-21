@@ -41,9 +41,9 @@ export default function Other() {
         <h2>Film & Television</h2>
         <h2>Learning</h2>
         <h2>Sport</h2>
-        SA work etc, MOOCs (list em), sport (snooker lesson with Nigel
-        conservatoire champion, football tourney winners), chess school chess
-        champion
+        SA work etc, MOOCs (list em), books goodreads, sport (snooker lesson
+        with Nigel conservatoire champion, football tourney winners), chess
+        school chess champion
       </main>
       <footer className={styles.footer}>
         <a

@@ -46,7 +46,8 @@ export default function Projects() {
         </h2>
         <p className={styles.blurb}>
           This app allows the user to search for a game and then find the
-          cheapest deal on it. It was built using React and the cheapshark API
+          cheapest deal available for it. It was built using React and the
+          cheapshark API.
         </p>
         <h2 className={styles.subheader}>Cocktail finder</h2>
         <h2 className={styles.subheader}>Games Database</h2>
