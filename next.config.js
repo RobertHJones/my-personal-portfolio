@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["img.icons8.com"],
+    domains: ["scontent.fltn3-1.fna.fbcdn.net"],
   },
 };

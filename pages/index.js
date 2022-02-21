@@ -51,10 +51,17 @@ export default function Home() {
             providing details regarding my background and some other information
             about me. This is currently a work in progress.
           </p>
-          <Image
+          {/* <Image
             className={styles.image}
             src="https://scontent.fltn3-1.fna.fbcdn.net/v/t31.18172-8/11057595_10152896118106301_3657998345476906860_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=19026a&_nc_ohc=1NrTGUA0ZKMAX_1TT3F&_nc_ht=scontent.fltn3-1.fna&oh=00_AT8xhRvSLjg6O_Mox1Pcvam3FvSPa-Z4yhLnFQEmTTN0Rg&oe=6236B0D8"
             alt="Rob"
+            width={500}
+            height={500}
+          /> */}
+          <img
+            className={styles.image}
+            src="https://scontent.fltn3-1.fna.fbcdn.net/v/t31.18172-8/11057595_10152896118106301_3657998345476906860_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=19026a&_nc_ohc=1NrTGUA0ZKMAX_1TT3F&_nc_ht=scontent.fltn3-1.fna&oh=00_AT8xhRvSLjg6O_Mox1Pcvam3FvSPa-Z4yhLnFQEmTTN0Rg&oe=6236B0D8"
+            alt=""
           />
         </div>
         <div className={styles.grid}>
