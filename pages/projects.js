@@ -34,17 +34,29 @@ export default function Projects() {
         <h1 className={styles.title}>Projects</h1>
       </header>
       <main className={styles.description}>
-        <h2 className={styles.subheader}><a className={styles.link} href="https://game-price-search.netlify.app/" target="_blank">Videogame Price Comparison App</a></h2>
-        <p className={styles.blurb}>This app allows the user to search for a game and then find the cheapest deal on it. It was built using React and the cheapshark API</p>
+        <h2 className={styles.subheader}>
+          <a
+            className={styles.link}
+            href="https://game-price-search.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Videogame Price Comparison App
+          </a>
+        </h2>
+        <p className={styles.blurb}>
+          This app allows the user to search for a game and then find the
+          cheapest deal on it. It was built using React and the cheapshark API
+        </p>
         <h2 className={styles.subheader}>Cocktail finder</h2>
         <h2 className={styles.subheader}>Games Database</h2>
         <h2 className={styles.subheader}>Ashtanga Yoga Pose Database</h2>
         <h2 className={styles.subheader}>Rock Paper Scissors</h2>
         <h2 className={styles.subheader}>Text Adventure</h2>
         <h2 className={styles.subheader}>Handstand Site</h2>
-      Game price checker. Cocktail finder. Christmas Project. Python
-      rockpaperscissors. Python text adventure? Yoga database. Handstand site.
-      This page (meta)
+        Game price checker. Cocktail finder. Christmas Project. Python
+        rockpaperscissors. Python text adventure? Yoga database. Handstand site.
+        This page (meta)
       </main>
       <footer className={styles.footer}>
         <a
