@@ -4,6 +4,12 @@
   max-width: 100%;
   /* height: 100vh; */
 }
+.containerExtended {
+  padding: 0 2rem;
+  background-image: url("https://www.teahub.io/photos/full/125-1253801_website-background.png");
+  max-width: 100%;
+  height: 100vh;
+}
 
 .main {
   min-height: 80vh;
