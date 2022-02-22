@@ -45,19 +45,81 @@ export default function Projects() {
           </a>
         </h2>
         <p className={styles.blurb}>
-          This app allows the user to search for a game and then find the
-          cheapest deal available for it. It was built using React and the
-          cheapshark API.
+          This app enables the user to search for a game and then locate the
+          cheapest deal available for it. It was built using React, AuthO and
+          the cheapshark API.
         </p>
-        <h2 className={styles.subheader}>Cocktail finder</h2>
-        <h2 className={styles.subheader}>Games Database</h2>
+        <h2 className={styles.subheader}>
+          <a
+            className={styles.link}
+            href="https://cocktail-generator.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Cocktail finder
+          </a>
+        </h2>
+        <p className={styles.blurb}>
+          Similar to the price comparison, this app allows a user to search for
+          a cocktail by an ingredient, and then view instructions on how to
+          prepare it.
+        </p>
+        <h2 className={styles.subheader}>
+          {" "}
+          <a
+            className={styles.link}
+            href="https://dbdb-game-db.herokuapp.com/games"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Games Database
+          </a>
+        </h2>
+        <p className={styles.blurb}>
+          A full stack app to record and view ratings for videogames, providing
+          the option to search by different criteria (title, genre etc) as well
+          as add in new games. This included a PostgreSQL backend, and frontend
+          initially written in vanilla JavaScript. I have since deployed the
+          backend to Heroku (linked above) and am currently refactoring the
+          frontend into React.
+        </p>
         <h2 className={styles.subheader}>Ashtanga Yoga Pose Database</h2>
-        <h2 className={styles.subheader}>Rock Paper Scissors</h2>
-        <h2 className={styles.subheader}>Text Adventure</h2>
+        <h2 className={styles.subheader}>
+          {" "}
+          <a
+            className={styles.link}
+            href="https://github.com/RobertHJones/game-python-soc"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Rock Paper Scissors
+          </a>
+        </h2>
+        <p className={styles.blurb}>
+          I spent an afternoon building a Rock Paper Scissors game in Python
+          with a colleague. Neither of us had used Python before but we wrote a
+          detailed plan and so were able to contruct a fully functional app
+          without any issues.
+        </p>
+        <h2 className={styles.subheader}>
+          {" "}
+          <a
+            className={styles.link}
+            href="https://github.com/RobertHJones/python-text-adventure"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Text Adventure
+          </a>
+        </h2>
+        <p className={styles.blurb}>
+          Having enjoyed the previous project with Python I decided to brush up
+          my skills by making a start on a text adventure. This allowed me to
+          combine coding with another passion of mine - writing.
+        </p>
         <h2 className={styles.subheader}>Handstand Site</h2>
-        Game price checker. Cocktail finder. Christmas Project. Python
-        rockpaperscissors. Python text adventure? Yoga database. Handstand site.
-        This page (meta)
+        Christmas Project. Python rockpaperscissors. Python text adventure? Yoga
+        database. Handstand site. This page (meta)
       </main>
       <footer className={styles.footer}>
         <a

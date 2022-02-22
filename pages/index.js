@@ -39,7 +39,10 @@ export default function Home() {
       <header>
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>Robert Jones Personal Portfolio</h1>
-        <p>Tech Stack | etc | centre this</p>
+        <p className={styles.tech}>
+          Javascript | React | Next.js | Node.js | Express | PostgreSQL | Heroku
+          | Jest | SuperTest | Cypress | Docker | Agile | Git
+        </p>
       </header>
       <main>
         <div className={styles.homeFraming}>
@@ -64,35 +67,6 @@ export default function Home() {
             src="https://scontent.fltn3-1.fna.fbcdn.net/v/t31.18172-8/11057595_10152896118106301_3657998345476906860_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=19026a&_nc_ohc=1NrTGUA0ZKMAX_1TT3F&_nc_ht=scontent.fltn3-1.fna&oh=00_AT8xhRvSLjg6O_Mox1Pcvam3FvSPa-Z4yhLnFQEmTTN0Rg&oe=6236B0D8"
             alt=""
           />
-        </div>
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
