@@ -11,16 +11,16 @@ const menu = (
     <Menu.Item className={styles.mobileLink} key="1" icon={<UserOutlined />}>
       <Link href="/about">About</Link>
     </Menu.Item>
-    {/* <Menu.Item key="2" icon={<UserOutlined />}>
-      <Link href="/skills">Skills</Link>
-    </Menu.Item> */}
     <Menu.Item key="2" className={styles.mobileLink} icon={<UserOutlined />}>
-      <Link href="/cv">CV</Link>
+      <Link href="/projects">Projects</Link>
     </Menu.Item>
     <Menu.Item key="3" className={styles.mobileLink} icon={<UserOutlined />}>
-      <Link href="/other">Other Information</Link>
+      <Link href="/cv">CV</Link>
     </Menu.Item>
     <Menu.Item key="4" className={styles.mobileLink} icon={<UserOutlined />}>
+      <Link href="/other">Other Information</Link>
+    </Menu.Item>
+    <Menu.Item key="5" className={styles.mobileLink} icon={<UserOutlined />}>
       <Link href="/contact">Contact</Link>
     </Menu.Item>
   </Menu>
