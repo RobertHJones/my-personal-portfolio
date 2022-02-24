@@ -28,7 +28,7 @@ export default function About() {
     return () => window.removeEventListener("resize", updateMedia);
   }, []);
   return (
-    <div className={styles.containerExtended}>
+    <div className={styles.container}>
       {" "}
       <header>
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
