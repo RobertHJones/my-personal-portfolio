@@ -38,7 +38,7 @@ export default function Other() {
         <h2>Music</h2>
         <div className={styles.containerOther}>
           <div>
-            dkfjghsldkfjghslkdfghslkdjfghlskdjfghlskdjfglskdfjglkdjfghsldkfjghslkdfjghsldfkjg
+            
           </div>
           <div>
             <img
