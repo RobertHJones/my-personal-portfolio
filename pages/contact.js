@@ -9,6 +9,7 @@ import {
   LinkedinOutlined,
   GithubOutlined,
   MailOutlined,
+  CodeOutlined,
 } from "@ant-design/icons";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
@@ -75,6 +76,18 @@ export default function Contact() {
               <a
                 className={styles.link}
                 href="https://github.com/RobertHJones"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Robert Jones
+              </a>{" "}
+            </li>
+            <li>
+              Codewars: <CodeOutlined />
+              <a
+                className={styles.link}
+                href="https://www.codewars.com/users/Radar%20Rush/"
                 target="_blank"
                 rel="noreferrer"
               >

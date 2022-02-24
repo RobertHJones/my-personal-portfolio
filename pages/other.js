@@ -28,7 +28,7 @@ export default function Other() {
     return () => window.removeEventListener("resize", updateMedia);
   }, []);
   return (
-    <div className={styles.containerExtended}>
+    <div className={styles.container}>
       {" "}
       <header>
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
@@ -36,14 +36,40 @@ export default function Other() {
       </header>
       <main>
         <h2>Music</h2>
+        <div className={styles.containerOther}>
+          <div>
+            dkfjghsldkfjghslkdfghslkdjfghlskdjfghlskdjfglskdfjglkdjfghsldkfjghslkdfjghsldfkjg
+          </div>
+          <div>
+            <img
+              className={styles.imageGlas}
+              src="https://scontent.fbhx3-1.fna.fbcdn.net/v/t31.18172-8/13568781_10153640150631301_1464159804165777912_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gMLbRnyAfxsAX_LTGu6&_nc_ht=scontent.fbhx3-1.fna&oh=00_AT8ExmaKGdyteHimEZB6bSFS9ROw7HvDwowOx96s41XZNQ&oe=623BFC99"
+              alt=""
+            />
+            <p className={styles.imageInfo}>
+              Performing at Glastonbury a few years back
+            </p>
+          </div>
+          <div>
+            <img
+              className={styles.imageWed}
+              src="https://i.ibb.co/tbY3qrz/IMG-20211002-WA0003.jpg"
+              alt=""
+            />
+            <p className={styles.imageInfo}>
+              Playing at the wedding of my friends in 2021, after what seemed
+              like an eternity without performing
+            </p>
+          </div>
+        </div>
         <h2>Yoga</h2>
         <h2>Gaming</h2>
         <h2>Film & Television</h2>
         <h2>Learning</h2>
         <h2>Sport</h2>
-        SA work etc, MOOCs (list em), books goodreads, sport (snooker lesson
-        with Nigel conservatoire champion, football tourney winners), chess
-        school chess champion
+        {/* SA work etc, MOOCs (list em), books goodreads, sport (snooker lesson
+        with Nigel conservatoire champion, football tourney winners), school
+        chess champion */}
       </main>
       <footer className={styles.footer}></footer>
     </div>

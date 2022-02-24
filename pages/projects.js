@@ -84,6 +84,7 @@ export default function Projects() {
           frontend into React.
         </p>
         <h2 className={styles.subheader}>Ashtanga Yoga Pose Database</h2>
+        <p className={styles.blurb}>Use to learn MongoDB</p>
         <h2 className={styles.subheader}>
           {" "}
           <a
@@ -114,12 +115,10 @@ export default function Projects() {
         </h2>
         <p className={styles.blurb}>
           Having enjoyed the previous project with Python I decided to brush up
-          my skills by making a start on a text adventure. This allowed me to
+          on my skills by making a start on a text adventure. This allowed me to
           combine coding with another passion of mine - writing.
         </p>
         <h2 className={styles.subheader}>Handstand Site</h2>
-        Christmas Project. Python rockpaperscissors. Python text adventure? Yoga
-        database. Handstand site. This page (meta)
       </main>
       <footer className={styles.footer}></footer>
     </div>

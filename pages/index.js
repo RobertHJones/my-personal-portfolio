@@ -40,8 +40,9 @@ export default function Home() {
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>Robert Jones Personal Portfolio</h1>
         <p className={styles.tech}>
-          Javascript | React | Next.js | Node.js | Express | PostgreSQL | Heroku
-          | Jest | SuperTest | Cypress | Docker | Agile | Git
+          JavaScript | TypeScript | React | Next.js | Node.js | Express |
+          PostgreSQL | Heroku | Jest | SuperTest | Cypress | Docker | Agile |
+          Git
         </p>
       </header>
       <main>
@@ -52,7 +53,7 @@ export default function Home() {
             <br></br>
             This portfolio showcases my projects and skills, as well as also
             providing details regarding my background and some other information
-            about me. This is currently a work in progress.
+            about me.
           </p>
           {/* <div>
             <Image
