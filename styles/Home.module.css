@@ -280,6 +280,7 @@
 .codewars {
   display: flex;
   justify-content: center;
+  transform: scale(0.6);
 }
 
 .cvContainer {
@@ -291,5 +292,12 @@
 @media (min-width: 736px) {
   .cvContainer {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 736px) {
+  .codewars {
+    width: auto;
+    transform: scale(1);
   }
 }
