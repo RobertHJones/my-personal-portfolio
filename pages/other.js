@@ -6,7 +6,6 @@ import "antd/dist/antd.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
-import Card from "../pages/Components/Card/index.js";
 
 export default function Other() {
   const [isDesktop, setDesktop] = useState(false);
@@ -43,7 +42,7 @@ export default function Other() {
             <h2>Yoga</h2>
             <h2>Gaming</h2>
             <h2>Film & Television</h2>
-            {/* borap photo, judy photo, brittania,  */}
+            {/* borap photo, judy photo, brittania, his dark materials */}
             <h2>Learning</h2>
             <h2>Sport</h2>
             {/* football photo? */}
@@ -57,10 +56,6 @@ export default function Other() {
             <p className={styles.imageInfo}>
               Performing at Glastonbury a few years back
             </p>
-            {/* <Card
-              src={"https://i.ibb.co/tbY3qrz/IMG-20211002-WA0003.jpg"}
-              caption={"blabla"}
-            /> */}
 
             <img
               className={styles.imageWed}
