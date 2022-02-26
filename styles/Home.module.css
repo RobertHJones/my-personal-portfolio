@@ -92,7 +92,8 @@
   line-height: 1.5;
   font-size: 0.8rem;
   font-weight: bold;
-  margin-left: 5%;
+
+  text-align: left;
 }
 
 .subheader {
@@ -224,18 +225,10 @@
   border: 2px solid white;
 }
 
-.imageGlas {
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  border-radius: 20%;
-  border: 2px solid white;
-}
-
 .imageWed {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 50%;
   border-radius: 30px;
   border: 2px solid white;
 }
