@@ -43,13 +43,13 @@ export default function Contact() {
         <h1 className={styles.title}>Contact me</h1>
       </header>
       <main>
-        <div className={styles.description}>
+        <div className={styles.contactList}>
           <p>
             If you would like to contact me about any opportunities, please feel
             free to do so at any of the below.
           </p>
           <ul className={styles.list}>
-            <li className={styles.listItem}>
+            <li>
               Email address: <MailOutlined />
               <a
                 className={styles.link}

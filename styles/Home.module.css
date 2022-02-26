@@ -62,6 +62,20 @@
   font-size: 1.5rem;
 }
 
+.contactList {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+@media (min-width: 736px) {
+  .contactList {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
 .aboutRob {
   margin: 4rem 0;
   line-height: 1.5;

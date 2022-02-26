@@ -68,7 +68,7 @@ export default function About() {
         a second scholarship to study my Master&#39;s degree, for which I was
         awarded Distinction. I worked as a freelance musician and cello teacher
         for Northants Music Trust for a few years after this before moving back
-        to Birmingham to work at Birmingham City University, an good employer
+        to Birmingham to work at Birmingham City University, a good employer
         with whom I stayed for over seven years. My first role was in student
         support, from which I moved into Admissions before joining School of
         Code in November 2021. From my previous career I have a great deal of
