@@ -44,11 +44,17 @@ export default function Home() {
           PostgreSQL | Heroku | Jest | SuperTest | Cypress | Docker | Agile |
           Git
         </p>
+        <div className={styles.codewars}>
+          <img
+            src="https://www.codewars.com/users/Radar%20Rush/badges/large"
+            alt=""
+          />
+        </div>
       </header>
       <main>
         <div className={styles.homeFraming}>
           <p className={styles.description}>
-            Hi I am Rob. I am a Full Stack Software Engineer based in
+            Hi I&#39;m Rob. I&#39;m a Full Stack Software Engineer based in
             Birmingham.
             <br></br>
             This portfolio showcases my projects and skills, as well as also

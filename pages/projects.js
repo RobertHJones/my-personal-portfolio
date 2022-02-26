@@ -32,8 +32,23 @@ export default function Projects() {
       <header>
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>Projects</h1>
+        <p className={styles.tech}>
+          A sample of some of the projects on which I have worked and some
+          upcoming projects
+        </p>
       </header>
       <main className={styles.description}>
+        {/* <h2 className={styles.subheader}>
+          <a
+            className={styles.link}
+            href="https://final-project-rj.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Final Project
+          </a>
+        </h2>
+        <p className={styles.blurb}>Details here</p> */}
         <h2 className={styles.subheader}>
           <a
             className={styles.link}
@@ -83,8 +98,24 @@ export default function Projects() {
           backend to Heroku (linked above) and am currently refactoring the
           frontend into React.
         </p>
-        <h2 className={styles.subheader}>Ashtanga Yoga Pose Database</h2>
-        <p className={styles.blurb}>Use to learn MongoDB</p>
+        <h2 className={styles.subheader}>
+          <a
+            className={styles.link}
+            href="https://github.com/RobertHJones/Yoga-Project-Backend"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ashtanga Yoga Pose Database
+          </a>
+        </h2>
+        <p className={styles.blurb}>
+          Following in the Ashtanga Yoga tradition of creating charts of the
+          poses of the different series, I have decided to create a database to
+          record myself demonstrating every pose in the Ashtanga primary and
+          intermediate series. This will be accompanies by other relevant
+          information. I also plan to use this as an opportunity to practice
+          learning MongoDB.
+        </p>
         <h2 className={styles.subheader}>
           {" "}
           <a
@@ -118,7 +149,11 @@ export default function Projects() {
           on my skills by making a start on a text adventure. This allowed me to
           combine coding with another passion of mine - writing.
         </p>
-        <h2 className={styles.subheader}>Handstand Site</h2>
+        {/* <h2 className={styles.subheader}>Handstand Site</h2>
+        <p className={styles.blurb}>
+          I have started teaching handstanding and so have started work on a
+          website to promote this.
+        </p> */}
       </main>
       <footer className={styles.footer}></footer>
     </div>

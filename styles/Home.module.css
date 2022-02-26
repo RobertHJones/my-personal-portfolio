@@ -53,6 +53,12 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
+
+.aboutRob {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
 .tech {
   line-height: 1.5;
   font-size: 1rem;
@@ -62,7 +68,7 @@
 
 .imageInfo {
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
   margin-left: 5%;
 }
@@ -80,6 +86,20 @@
     font-size: 2.5rem;
   }
 }
+
+@media (min-width: 736px) {
+  .imageInfo {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 736px) {
+  .aboutRob {
+    font-size: 1.6rem;
+    margin: 1rem;
+  }
+}
+
 @media (min-width: 736px) {
   .title {
     font-size: 4rem;
@@ -115,6 +135,20 @@
   max-width: 800px;
 }
 
+.cvImage {
+  border: 1px solid black;
+  width: 400px;
+  margin: 1rem;
+}
+
+@media (min-width: 736px) {
+  .cvImage {
+    transform: scale(1);
+    margin: 1.5rem;
+    width: auto;
+  }
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -125,13 +159,6 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
 }
 
 .card h2 {
@@ -148,13 +175,6 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }
 
 .nav {
@@ -246,4 +266,30 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.otherTopContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.otherText {
+  width: 50%;
+}
+
+.codewars {
+  display: flex;
+  justify-content: center;
+}
+
+.cvContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 736px) {
+  .cvContainer {
+    flex-direction: row;
+  }
 }
