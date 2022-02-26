@@ -36,7 +36,7 @@ export default function Contact() {
     return () => window.removeEventListener("resize", updateMedia);
   }, []);
   return (
-    <div className={styles.containerExtended}>
+    <div className={styles.container}>
       {" "}
       <header>
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
@@ -98,7 +98,7 @@ export default function Contact() {
           </ul>
         </div>
       </main>
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footerContact}></footer>
     </div>
   );
 }
