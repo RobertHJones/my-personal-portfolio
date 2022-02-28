@@ -99,8 +99,7 @@
   line-height: 1.5;
   font-size: 0.8rem;
   font-weight: bold;
-
-  text-align: left;
+  text-align: center;
 }
 
 .subheader {
@@ -239,6 +238,8 @@
   /* height 10%? Then can put some yoga ones together and maybe music too? */
   border-radius: 30px;
   border: 2px solid white;
+  display: flex;
+  justify-content: center;
 }
 
 .lineupImage {
