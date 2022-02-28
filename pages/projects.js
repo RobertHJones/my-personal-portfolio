@@ -6,6 +6,8 @@ import "antd/dist/antd.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
+import { projects } from "../data/data.js";
+import List from "./Components/List";
 
 export default function Projects() {
   const [isDesktop, setDesktop] = useState(false);
@@ -38,6 +40,18 @@ export default function Projects() {
         </p>
       </header>
       <main className={styles.description}>
+        {/* {console.log("Yo", projects)} */}
+        {/* <p>{projects[0].title}</p> */}
+        {projects.map((item, index) => {
+          return (
+            <List
+              link={item.link}
+              key={index}
+              title={item.title}
+              text={item.info}
+            />
+          );
+        })}
         {/* <h2 className={styles.subheader}>
           <a
             className={styles.link}

@@ -6,7 +6,7 @@ import "antd/dist/antd.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
-import images from "../data/data";
+import { images, interests } from "../data/data";
 
 export default function Other() {
   const [isDesktop, setDesktop] = useState(false);
