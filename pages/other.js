@@ -6,6 +6,8 @@ import "antd/dist/antd.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
+import images from "../data/data";
+import Card from "./Components/Card";
 
 export default function Other() {
   const [isDesktop, setDesktop] = useState(false);
@@ -49,7 +51,8 @@ export default function Other() {
               I have performed at most of the major venues across the UK as well
               as many festivals, including Glastonbury and Boomtown. Similar to
               coding, music is all about creating with other people, and when
-              you form a group all pulling together the results are incredible.
+              you form a group really working together the results are
+              incredible.
             </p>
             <h2>Yoga</h2>
             <p className={styles.interests}>
@@ -108,9 +111,13 @@ export default function Other() {
               can see a photo of my greatest football moment below), and running
               (although a little out of shape right now).
             </p>
-            {/* football photo? Books etc */}
           </div>
           <div className={styles.otherImages}>
+            {/* {images.map((item, index) => {
+              return (
+                <Card key={index} image={item.image} caption={item.caption} />
+              );
+            })} */}
             <img
               className={styles.imageWed}
               src="https://scontent.fbhx3-1.fna.fbcdn.net/v/t31.18172-8/13568781_10153640150631301_1464159804165777912_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gMLbRnyAfxsAX_LTGu6&_nc_ht=scontent.fbhx3-1.fna&oh=00_AT8ExmaKGdyteHimEZB6bSFS9ROw7HvDwowOx96s41XZNQ&oe=623BFC99"
