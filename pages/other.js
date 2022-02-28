@@ -7,7 +7,6 @@ import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
 import images from "../data/data";
-import Card from "./Components/Card";
 
 export default function Other() {
   const [isDesktop, setDesktop] = useState(false);
@@ -118,6 +117,7 @@ export default function Other() {
                 <Card key={index} image={item.image} caption={item.caption} />
               );
             })} */}
+
             <img
               className={styles.imageWed}
               src="https://scontent.fbhx3-1.fna.fbcdn.net/v/t31.18172-8/13568781_10153640150631301_1464159804165777912_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gMLbRnyAfxsAX_LTGu6&_nc_ht=scontent.fbhx3-1.fna&oh=00_AT8ExmaKGdyteHimEZB6bSFS9ROw7HvDwowOx96s41XZNQ&oe=623BFC99"
