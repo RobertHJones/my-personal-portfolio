@@ -36,8 +36,8 @@ export default function Cv() {
         <div className={styles.cvContainer}>
           <img
             className={styles.cvImage}
-            // src="https://lh3.googleusercontent.com/eG2OeamPUGw-Z2m3h2I9_tjTmZbkU5rcuI-uY5xdH4m30xKf5dq9FxwfofwR66n2LpxzCtorn5zEXG4zATDu-9kHsl7_JQlpuW9Bxe5_FR1sphkzUk1DDHKqfhtjayAr9jOGR8YtwccUqUmt3L4gnRiZNxRjD6_yfKSy2P6Wut3XmcWcucShBFsH07ZpzBQd1fjJHM97G6lLlam1UJt1sa4O6qxAePa_ZBL69pZ9UbwHjbv6-8geYLU-G3cq7ScTU7YfGE_9mYcQpfVXafT9vNyMCMLGkBcUqjBPKPZgEAsPtM491847ICz_WWJQcJbJiYvv-BONlKXy3JZhjXGlU0OcHSoKftc6iFaVHmfDmS38wu9OnB6TXsJ3iCxb13OB_jkUUpwaDK1I5h9P_c_IE3RRZJfJ2CkyUCQeBpBUAIfAEiJUKEou30h-ZGTBM3iG90Fy_z07lfl87xPGBhtcAV-jT0_G9UC4YI-fpMIQDesVeL2yc8gGSlh530UaG5Em_RT4qaVhEN1T-ye6Du_MEjO-6X29G_2t8a_rVs0jRirYbcPtCqxpvM-kHjjctioT-zr8wtbKNjam9oJlas2Gat0qhZMFgCeozLNNh9Kz9evlLXCAc0TAn4hOmrD32iOniD0XeSmhfrbOyFcAOg9v_wQZYqZtnQtCSW87pXZqfbUEG-eXQHUu54l0Urx-FxMDqacu8aUOGGUZ-PcXs27xiQk=w722-h1024-no?authuser=0"
-            src="https://i.postimg.cc/QCDtKTYb/Robert-Jones-CV1024-1.png"
+            // src="https://i.postimg.cc/QCDtKTYb/Robert-Jones-CV1024-1.png"
+            src="https://i.postimg.cc/MKvXbZ97/Robert-Jones-West-Midlands-CV-1.png"
             alt=""
           />
           <img
