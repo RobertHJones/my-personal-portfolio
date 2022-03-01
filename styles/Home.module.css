@@ -318,6 +318,7 @@
 }
 
 .otherImages {
+  display: block;
 }
 
 @media (min-width: 736px) {
