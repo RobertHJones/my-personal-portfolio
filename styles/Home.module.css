@@ -56,6 +56,18 @@
   text-align: center;
 }
 
+.gallery {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 736px) {
+  .gallery {
+    font-size: 3.5rem;
+  }
+}
+
 .description {
   margin: 4rem 0;
   line-height: 1.5;
@@ -83,16 +95,23 @@
 }
 .tech {
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   font-weight: bold;
 }
 
 .interests {
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: left;
   font-weight: bold;
+}
+
+@media (min-width: 736px) {
+  .interests {
+    line-height: 1.5;
+    font-size: 1.1rem;
+  }
 }
 
 .imageInfo {
@@ -145,23 +164,6 @@
   .blurb {
     font-size: 1.8rem;
   }
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
 
 .cvImage {
@@ -234,9 +236,9 @@
 .imageWed {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 85%;
   /* height 10%? Then can put some yoga ones together and maybe music too? */
-  border-radius: 30px;
+  border-radius: 20px;
   border: 2px solid white;
   display: flex;
   justify-content: center;
@@ -299,14 +301,33 @@
 
 .otherTopContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .otherText {
-  width: 60%;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 736px) {
+  .otherText {
+    flex-direction: row;
+    font-size: 1.4rem;
+  }
 }
 
 .otherImages {
+}
+
+@media (min-width: 736px) {
+  .otherImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
 }
 
 .codewars {

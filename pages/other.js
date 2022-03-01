@@ -54,6 +54,7 @@ export default function Other() {
               );
             })}{" "}
           </div>
+          <h2 className={styles.gallery}>Gallery</h2>
           <div className={styles.otherImages}>
             {images.map((item, index) => {
               return (

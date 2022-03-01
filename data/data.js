@@ -34,13 +34,13 @@ export const images = [
     caption: "Finally got the splits",
   },
   {
+    image: "https://i.postimg.cc/j5hrkK7h/received-1235211326673499.jpg",
+    caption: "On set/on the eve of battle",
+  },
+  {
     image: "https://i.postimg.cc/Vv00QCZB/IMG-20210906-WA0000.jpg",
     caption:
       " Greatest honour a yogi can have...teacher's cat falls asleep on you",
-  },
-  {
-    image: "https://i.postimg.cc/j5hrkK7h/received-1235211326673499.jpg",
-    caption: "On set/on the eve of battle",
   },
   {
     image: "https://i.postimg.cc/wv384fSG/Judy2.png",
@@ -65,7 +65,7 @@ export const interests = [
   },
   {
     subject: "Yoga",
-    info: " I can genuinely say that yoga has changed my life. I have been practising for over six years and now have a daily practice.Because of yoga I can do things that I thought would never be physically possible, but more importantly it has given me a sense of inner peace and tranquilty that always sees me through the hard times and enables me to put things in perspective. I mostly practice Ashtanga yoga and have a particular affinity for handstands, which I am starting to teach around the Birmingham area (watch this space!)",
+    info: " I can genuinely say that yoga has changed my life. I have been practising for over six years and now have a daily practice. Because of yoga I can do things that I thought would never be physically possible, but more importantly it has given me a sense of inner peace and tranquilty that always sees me through the hard times and enables me to put things in perspective. I mostly practice Ashtanga yoga and have a particular affinity for handstands, which I am starting to teach around the Birmingham area (watch this space!)",
   },
   {
     subject: "Gaming",
@@ -77,11 +77,11 @@ export const interests = [
   },
   {
     subject: "Learning",
-    info: "Even before I started coding I loved learning new things, and so have completed quite a few MOOCs across a range of topics. Probably my favourite area was Palaeontology, but other highlights    include Linguistics, the Philosophy of Emotions, Astrophysics and Sustainable Development. It's remarkable what fantastic resources are out there available to everyone for free (this applies for coding too)",
+    info: "Even before I started coding I loved learning new things, and so have completed quite a few MOOCs across a range of topics. Probably my favourite area was Palaeontology, but other highlights include Linguistics, the Philosophy of Emotions, Astrophysics and Sustainable Development. It's remarkable what fantastic resources are out there available to everyone for free (this applies for coding too)",
   },
   {
     subject: "Other stuff",
-    info: "It was impossible to make an exhaustive list of everything I like doing on this page so a few honourable mentions include reading (my favourite authors being Dostoevsky, Haruki Murakami and W Somerset Maugham, although I&#39;ve been getting into non-fiction too more recently - especially books about coding!), sport (you can see a photo of my greatest football moment below), and running (although a little out of shape right now).",
+    info: "It was impossible to make an exhaustive list of everything I like doing on this page so a few honourable mentions include reading (my favourite authors being Dostoevsky, Haruki Murakami and W Somerset Maugham, although I've been getting into non-fiction too more recently - especially books about coding!), sport (you can see a photo of my greatest football moment below), and running (although a little out of shape right now).",
   },
 ];
 export const projects = [
