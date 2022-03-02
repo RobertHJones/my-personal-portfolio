@@ -11,6 +11,12 @@
   height: 100vh;
 }
 
+@media (min-width: 736px) {
+  .containerExtended {
+    height: 100vh;
+  }
+}
+
 .main {
   min-height: 80vh;
   padding: 4rem 0;
@@ -254,22 +260,11 @@
   justify-content: space-around;
 }
 
-/* .homeFraming {
-  display: flex;
-  justify-content: space-evenly;
-} */
-
 @media (min-width: 600px) {
   .menuicon {
     display: none;
   }
 }
-/* @media (max-width: 1200px) {
-  .container {
-    background-image: url("https://www.teahub.io/photos/full/125-1253801_website-background.png");
-
-  }
-} */
 
 .desktop {
   max-width: 80vw;
