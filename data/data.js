@@ -69,7 +69,7 @@ export const interests = [
   },
   {
     subject: "Gaming",
-    info: "Gaming is my favourite way to unwind, although I also like to be organised about it and keep track of every game I played as well as what I thought of it (you can find out more on my Projects page). In gaming terms there's a lot to be excited about at the moment, not least the Steam Deck, for which I can't wait for my pre-order to come through!",
+    info: "Gaming is my favourite way to unwind, although I also like to be organised (nerdy) about it and keep track of every game I've played, as well as what I thought of it (you can find out more on my Projects page). In gaming terms there's a lot to be excited about at the moment, not least the Steam Deck, for which I can't wait for my pre-order to come through!",
   },
   {
     subject: "Film & Television",
