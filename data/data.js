@@ -24,9 +24,8 @@ export const images = [
     caption: "Messing around in my self-practice group",
   },
   {
-    image: "https://i.postimg.cc/14xn93Lx/IMG-20191029-WA0004.jpg",
-    caption:
-      "Being stood on by a renowned yoga teacher...not as painful as it looks",
+    image: "https://i.postimg.cc/jqPtV43M/Bass.jpg",
+    caption: "Rehearsal for a rare gig on bass guitar",
   },
   {
     image:
