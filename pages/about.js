@@ -53,7 +53,7 @@ export default function About() {
         begun exploring Python as a personal interest, as well as regularly
         reading books around the area, my current personal favourite being The
         Clean Coder by Uncle Bob. As personal development I am also currently
-        working on TypeScript, Docker, MongoDB, AWS and Storybook. The creative
+        working on TypeScript, Jenkins, MongoDB, AWS and Storybook. The creative
         and problem solving nature of coding is what originally drew me to a
         career in tech, but one of the biggest lessons I have taken from the
         bootcamp - and what has become my favourite aspect of software
