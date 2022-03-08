@@ -84,11 +84,11 @@ export const interests = [
   },
 ];
 export const projects = [
-  // {
-  //   title: "Final Project",
-  //   link: "https://final-project-rj.netlify.app/",
-  //   info: "Details here",
-  // },
+  {
+    title: "School of Code Final Project",
+    link: "https://final-project-rj.netlify.app/",
+    info: "We were assigned four weeks to create a full stack web app from scratch. We built the backend using PostgreSQL and Heroku, using Cloudinary for photo uploads, and SuperTest with pgAdmin for testing. We used React for our frontend, React-Router for dynamic routing, Auth0 for authentication, custom hooks, Jest for unit tests, and Cypress for end-to-end tests. Our work followed AGILE methodologies, planning our initial MVP with lo-fi and hi-fi wireframes, and updating this as necessary over the course of the project. I learned several new technologies and so spent extra hours to ensure I had fully embedded these, as well as helping teammates do the same. I also ensured that the team remained motivated and that everyone's voice was heard, as well as volunteering to present our project to the rest of the bootcamp.",
+  },
   {
     title: "Videogame Price Comparison App",
     link: "https://game-price-search.netlify.app/",
@@ -102,13 +102,13 @@ export const projects = [
 
   {
     title: "Games Database",
-    link: "https://dbdb-game-db.herokuapp.com/games",
-    info: "A full stack app to record and view ratings for videogames, providing the option to search by different criteria (title, genre etc) as well as add in new games. This included a PostgreSQL backend, and frontend initially written in vanilla JavaScript. I have since deployed the backend to Heroku (linked above) and am currently refactoring the frontend into React.",
+    link: "https://game-rating.netlify.app/",
+    info: "A full stack app to record and view ratings for videogames, providing the option to search by different criteria (title, genre etc) as well as add in new games. This included a PostgreSQL backend, and frontend initially written in vanilla JavaScript. I have since deployed the backend to Heroku and am currently refactoring the frontend into React.",
   },
   {
     title: "Ashtanga Yoga Pose Database",
     link: "https://github.com/RobertHJones/Yoga-Project-Backend",
-    info: "Following in the Ashtanga Yoga tradition of creating charts of the poses of the different series, I have decided to create a database to record myself demonstrating every pose in the Ashtanga primary and intermediate series. This will be accompanies by other relevant information. I also plan to use this as an opportunity to practice learning MongoDB.",
+    info: "Following in the Ashtanga Yoga tradition of creating charts of the poses of the different series, I have decided to create a database to record myself demonstrating every pose in the Ashtanga primary and intermediate series. This will be accompanied by other relevant information. I also plan to use this as an opportunity to practice learning MongoDB.",
   },
   {
     title: "Rock Paper Scissors",
