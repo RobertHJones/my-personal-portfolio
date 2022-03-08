@@ -37,7 +37,8 @@ export default function Cv() {
           <img
             className={styles.cvImage}
             // src="https://i.postimg.cc/RC7TyYzg/msedge-BUBuxi3m-J4.png"
-            src="https://i.postimg.cc/yx2gkBMM/msedge-Kj45mh-Zz-V6.png"
+            // src="https://i.postimg.cc/yx2gkBMM/msedge-Kj45mh-Zz-V6.png"
+            src="https://i.postimg.cc/FzSskdFX/eightthree.png"
             alt=""
           />
           <img
