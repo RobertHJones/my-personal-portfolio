@@ -103,7 +103,7 @@ export const projects = [
   {
     title: "Games Database",
     link: "https://game-rating.netlify.app/",
-    info: "A full stack app to record and view ratings for videogames, providing the option to search by different criteria (title, genre etc) as well as add in new games. This included a PostgreSQL backend, and frontend initially written in vanilla JavaScript. I have since deployed the backend to Heroku and am currently refactoring the frontend into React.",
+    info: "A full stack app to record and view ratings for videogames, providing the option to search by different criteria (title, genre etc) as well as add in new games. This included a NodeJS/PostgreSQL backend, and frontend initially written in vanilla JavaScript. I have since deployed the backend to Heroku and am currently refactoring the frontend into TypeScript within React.",
   },
   {
     title: "Ashtanga Yoga Pose Database",
