@@ -113,7 +113,7 @@ export const projects = [
   {
     title: "Rock Paper Scissors",
     link: "https://github.com/RobertHJones/game-python-soc",
-    info: "I spent an afternoon building a Rock Paper Scissors game in Python with a colleague. Neither of us had used Python before but we wrote a detailed plan and so were able to contruct a fully functional app without any issues.",
+    info: "I spent an afternoon building a Rock Paper Scissors game in Python with a colleague. Neither of us had used Python before but we wrote a detailed plan and so were able to construct a fully functional app without any issues.",
   },
   {
     title: "Text Adventure",
