@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import "antd/dist/antd.css";
 import DesktopNav from "./Components/DesktopNav";
@@ -13,6 +11,7 @@ import Interests from "./Components/Interests";
 export default function Other() {
   const [isDesktop, setDesktop] = useState(false);
 
+  // set navbar by screen size
   useEffect(() => {
     if (window.innerWidth > 736) {
       setDesktop(true);
@@ -45,6 +44,7 @@ export default function Other() {
         <div className={styles.otherTopContainer}>
           <div className={styles.otherText}>
             {interests.map((item, index) => {
+              // map through interest data to display them on the page
               return (
                 <Interests
                   key={index}
@@ -57,6 +57,7 @@ export default function Other() {
           <h2 className={styles.gallery}>Gallery</h2>
           <div className={styles.otherImages}>
             {images.map((item, index) => {
+              // map through images to display them on the page
               return (
                 <Card key={index} image={item.image} text={item.caption} />
               );

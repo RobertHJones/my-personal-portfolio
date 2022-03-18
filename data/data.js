@@ -1,4 +1,5 @@
 export const images = [
+  // for other info page
   {
     image:
       "https://scontent.fbhx3-1.fna.fbcdn.net/v/t31.18172-8/13568781_10153640150631301_1464159804165777912_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gMLbRnyAfxsAX_LTGu6&_nc_ht=scontent.fbhx3-1.fna&oh=00_AT8ExmaKGdyteHimEZB6bSFS9ROw7HvDwowOx96s41XZNQ&oe=623BFC99",
@@ -58,6 +59,7 @@ export const images = [
 ];
 
 export const interests = [
+  // for other info page
   {
     subject: "Music",
     info: "Having been a musician for most of my life (studying to Master's level), I spend a great deal of my time making music. I have performed at most of the major venues across the UK as well as many festivals, including Glastonbury and Boomtown. Similar to coding, music is all about creating with other people, and when you form a group really working together the results are incredible.",
@@ -84,6 +86,7 @@ export const interests = [
   },
 ];
 export const projects = [
+  // for projects page
   {
     title: "School of Code Final Project",
     link: "https://final-project-rj.netlify.app/",

@@ -5,6 +5,7 @@ import { Menu } from "antd";
 import styles from "../../../styles/Home.module.css";
 
 export default function DesktopNav() {
+  // navbar for desktop
   return (
     <div className={styles.nav}>
       <Menu mode="horizontal">
@@ -17,9 +18,6 @@ export default function DesktopNav() {
           {" "}
           <Link href="/about">About</Link>
         </Menu.Item>
-        {/* <Menu.Item className={styles.desktopLink}>
-          <Link href="/skills">Skills</Link>
-        </Menu.Item> */}
         <Menu.Item className={styles.desktopLink}>
           <Link href="/projects">Projects</Link>
         </Menu.Item>

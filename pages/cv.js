@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
@@ -10,6 +8,7 @@ import "antd/dist/antd.css";
 export default function Cv() {
   const [isDesktop, setDesktop] = useState(false);
 
+  // set navbar by screen size
   useEffect(() => {
     if (window.innerWidth > 736) {
       setDesktop(true);

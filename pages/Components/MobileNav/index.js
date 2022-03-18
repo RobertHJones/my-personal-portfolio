@@ -27,6 +27,7 @@ const menu = (
 );
 
 export default function MobileNav() {
+  // hamburger navbar for mobile
   return (
     <Space wrap>
       <Dropdown.Button className={styles.mobileLink} overlay={menu}>

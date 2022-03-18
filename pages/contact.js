@@ -1,10 +1,7 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import { ReactElement } from "react";
 import "antd/dist/antd.css";
-import { Space } from "antd";
+//imported icons from antd
 import {
   LinkedinOutlined,
   GithubOutlined,
@@ -18,6 +15,7 @@ import { useState, useEffect } from "react";
 export default function Contact() {
   const [isDesktop, setDesktop] = useState(false);
 
+  // set navbar by screen size
   useEffect(() => {
     if (window.innerWidth > 736) {
       setDesktop(true);

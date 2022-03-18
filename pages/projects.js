@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import "antd/dist/antd.css";
 import DesktopNav from "./Components/DesktopNav";
@@ -12,6 +10,7 @@ import List from "./Components/List";
 export default function Projects() {
   const [isDesktop, setDesktop] = useState(false);
 
+  // set navbar by screen size
   useEffect(() => {
     if (window.innerWidth > 736) {
       setDesktop(true);
@@ -41,6 +40,7 @@ export default function Projects() {
       </header>
       <main className={styles.description}>
         {projects.map((item, index) => {
+          // map through projects to display them on the page
           return (
             <List
               link={item.link}

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../../styles/Home.module.css";
 
 export default function List({ link, title, text }) {
+  // list for projects page
   return (
     <div>
       <h2 className={styles.subheader}>
