@@ -62,7 +62,7 @@ export default function Home() {
           </p>
           <img
             className={styles.image}
-            src="https://scontent.fltn3-1.fna.fbcdn.net/v/t31.18172-8/11057595_10152896118106301_3657998345476906860_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=19026a&_nc_ohc=1NrTGUA0ZKMAX_1TT3F&_nc_ht=scontent.fltn3-1.fna&oh=00_AT8xhRvSLjg6O_Mox1Pcvam3FvSPa-Z4yhLnFQEmTTN0Rg&oe=6236B0D8"
+            src="https://i.postimg.cc/HnvSCKrP/golden.jpg"
             alt=""
           />
         </div>
