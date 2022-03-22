@@ -35,7 +35,7 @@ export default function Cv() {
         <div className={styles.cvContainer}>
           <img
             className={styles.cvImage}
-            src="https://i.postimg.cc/13n3m4J2/seventeen.png"
+            src="https://i.postimg.cc/m2M6cKBG/twotwothree.png"
             alt=""
           />
           <img
