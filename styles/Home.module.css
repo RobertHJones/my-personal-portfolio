@@ -244,10 +244,7 @@
   flex-direction: column;
 }
 
-@media (min-width: 736px) {
-  .containerExtended {
-    height: 100vh;
-  }
+@media only screen and (min-width: 736px) {
   .gallery {
     font-size: 3.5rem;
   }
@@ -303,5 +300,11 @@
   }
   .cvContainer {
     flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  .containerExtended {
+    height: 100vh;
   }
 }
