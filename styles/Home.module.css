@@ -305,6 +305,6 @@
 
 @media only screen and (min-width: 1008px) {
   .containerExtended {
-    height: 100vh;
+    height: 100%;
   }
 }
