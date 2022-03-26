@@ -98,16 +98,16 @@ export const projects = [
     info: "This app enables the user to search for a game and then locate the cheapest deal available for it. It was built using React, AuthO and the cheapshark API.",
   },
   {
+    title: "Games Database",
+    link: "https://game-rating.netlify.app/",
+    info: "A full stack app to record and view ratings for videogames, providing the option to search by different criteria (title, genre etc) as well as add in new games. This included a NodeJS/PostgreSQL backend, and frontend initially written in vanilla JavaScript. I have since deployed the backend to Heroku and am currently refactoring the frontend into TypeScript within React.",
+  },
+  {
     title: "Cocktail finder",
     link: "https://cocktail-generator.netlify.app/",
     info: "Similar to the price comparison, this app allows a user to search for a cocktail by an ingredient, and then view instructions on how to prepare it.",
   },
 
-  {
-    title: "Games Database",
-    link: "https://game-rating.netlify.app/",
-    info: "A full stack app to record and view ratings for videogames, providing the option to search by different criteria (title, genre etc) as well as add in new games. This included a NodeJS/PostgreSQL backend, and frontend initially written in vanilla JavaScript. I have since deployed the backend to Heroku and am currently refactoring the frontend into TypeScript within React.",
-  },
   {
     title: "Ashtanga Yoga Pose Database",
     link: "https://github.com/RobertHJones/Yoga-Project-Backend",
