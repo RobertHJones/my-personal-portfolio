@@ -1,8 +1,7 @@
 export const images = [
   // for other info page
   {
-    image:
-      "https://scontent.fbhx3-1.fna.fbcdn.net/v/t31.18172-8/13568781_10153640150631301_1464159804165777912_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gMLbRnyAfxsAX_LTGu6&_nc_ht=scontent.fbhx3-1.fna&oh=00_AT8ExmaKGdyteHimEZB6bSFS9ROw7HvDwowOx96s41XZNQ&oe=623BFC99",
+    image: "https://i.postimg.cc/VvJnjsjR/Glasto.jpg",
     caption: "Performing at Glastonbury a few years back",
   },
   {
@@ -15,9 +14,7 @@ export const images = [
     caption: "Last gig of 2020",
   },
   {
-    image:
-      "https://scontent.fbhx3-1.fna.fbcdn.net/v/t1.6435-9/83866270_10156954904896301_5436646414471921664_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=thiEP_9Ls-cAX8NQbnO&_nc_ht=scontent.fbhx3-1.fna&oh=00_AT_-Hva350gm1nx_KpvGUYphD9uPk5WsHBOnzWIC3p-LCw&oe=623F35FE",
-
+    image: "https://i.postimg.cc/jqDM6Rqm/Handstand.jpg",
     caption: "Handstand in front of the Royal Palace in Warsaw",
   },
   {
