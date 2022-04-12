@@ -11,6 +11,18 @@
   /* height: 100vh; */
 }
 
+.rob {
+  width: 10%;
+  border-radius: 20px;
+}
+
+.robContain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   min-height: 80vh;
   padding: 4rem 0;

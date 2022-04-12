@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
+import Rob from "../data/photo.jpg";
 import "antd/dist/antd.css";
 
 export default function About() {
@@ -33,6 +34,13 @@ export default function About() {
         <div>{isDesktop ? <DesktopNav /> : <MobileNav />} </div>
         <h1 className={styles.title}>About me</h1>
       </header>
+      <div className={styles.robContain}>
+        <img
+          className={styles.rob}
+          src="https://avatars.githubusercontent.com/u/80783254?v=4"
+          alt="Rob"
+        />
+      </div>
       <h2 className={styles.subheader}>My Journey</h2>
       <p className={styles.aboutRob}>
         I have always been interested in technology (in particular gaming) from
