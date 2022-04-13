@@ -96,7 +96,6 @@ export default function Contact() {
           </ul>
         </div>
       </main>
-      <footer className={styles.footerContact}></footer>
     </div>
   );
 }
