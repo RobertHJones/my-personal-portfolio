@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
-import Rob from "../data/photo.jpg";
 import "antd/dist/antd.css";
 
 export default function About() {
