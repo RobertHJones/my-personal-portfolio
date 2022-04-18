@@ -4,6 +4,7 @@ import "antd/dist/antd.css";
 import DesktopNav from "./Components/DesktopNav";
 import MobileNav from "./Components/MobileNav";
 import { useState, useEffect } from "react";
+import "animate.css";
 
 export default function Home() {
   const [isDesktop, setDesktop] = useState(false);
