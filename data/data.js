@@ -108,7 +108,7 @@ export const projects = [
   {
     title: "Ashtanga Yoga Pose Database",
     link: "https://yoga-database.herokuapp.com/poses",
-    info: "Following in the Ashtanga Yoga tradition of creating charts of the poses of the different series, I have decided to create a database to record myself demonstrating every pose in the Ashtanga primary and intermediate series. This will be accompanied by other relevant information.",
+    info: "Following in the Ashtanga Yoga tradition of creating charts of the poses of the different series, I have decided to create a database to record myself demonstrating every pose in the Ashtanga primary and intermediate series. This is a mobile app built using React Native.",
   },
   {
     title: "Rock Paper Scissors",
