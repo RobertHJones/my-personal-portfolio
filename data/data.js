@@ -111,6 +111,11 @@ export const projects = [
     info: "Following in the Ashtanga Yoga tradition of creating charts of the poses of the different series, I have decided to create a database to record myself demonstrating every pose in the Ashtanga primary and intermediate series. This will be accompanied by other relevant information.",
   },
   {
+    title: "LBTT calculator",
+    link: "https://lbtt-calculator.netlify.app/",
+    info: "A basic app to calculate the Land and Buildings Transaction Tax on properties in Scotland",
+  },
+  {
     title: "Rock Paper Scissors",
     link: "https://github.com/RobertHJones/game-python-soc",
     info: "I spent an afternoon building a Rock Paper Scissors game in Python with a colleague. Neither of us had used Python before but we wrote a detailed plan and so were able to construct a fully functional app without any issues.",
