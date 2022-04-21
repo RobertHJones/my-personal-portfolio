@@ -113,7 +113,7 @@ export const projects = [
   {
     title: "LBTT Calculator",
     link: "https://lbtt-calculator.netlify.app/",
-    info: "A basic app to calculate the Land and Buildings Transaction Tax on properties in Scotland",
+    info: "A basic app to calculate the Land and Buildings Transaction Tax on properties in Scotland.",
   },
   {
     title: "Rock Paper Scissors",
