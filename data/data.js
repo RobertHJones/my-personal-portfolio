@@ -107,7 +107,7 @@ export const projects = [
 
   {
     title: "Ashtanga Yoga Pose Database",
-    link: "https://yoga-database.herokuapp.com/poses",
+    link: "https://github.com/RobertHJones/Yoga-Project-Frontend",
     info: "Following in the Ashtanga Yoga tradition of creating charts of the poses of the different series, I have decided to create a database to record myself demonstrating every pose in the Ashtanga primary and intermediate series. This is a mobile app built using React Native.",
   },
   {
