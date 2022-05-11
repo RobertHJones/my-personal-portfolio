@@ -21,9 +21,9 @@ export default function DesktopNav() {
         <Menu.Item className={styles.desktopLink}>
           <Link href="/projects">Projects</Link>
         </Menu.Item>
-        <Menu.Item className={styles.desktopLink}>
+        {/* <Menu.Item className={styles.desktopLink}>
           <Link href="/cv">CV</Link>
-        </Menu.Item>
+        </Menu.Item> */}
         <Menu.Item className={styles.desktopLink}>
           <Link href="/other">Other Information</Link>
         </Menu.Item>
