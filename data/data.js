@@ -113,12 +113,12 @@ export const projects = [
   {
     title: "LBTT calculator",
     link: "https://lbtt-calculator.netlify.app/",
-    info: "A basic app I made as part of my Yoga Teacher Training to generate a peak pose for sequencing",
+    info: "A basic app to calculate the Land and Buildings Transaction Tax on properties in Scotland",
   },
   {
     title: "Random Yoga Pose Generator",
     link: "https://random-yoga-pose.netlify.app/",
-    info: "A basic app to calculate the Land and Buildings Transaction Tax on properties in Scotland",
+    info: "A basic app I made as part of my Yoga Teacher Training to generate a peak pose for sequencing",
   },
   {
     title: "Rock Paper Scissors",
